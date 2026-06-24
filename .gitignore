@@ -1,0 +1,15 @@
+# Local runtime/cache files
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local Codex/app state
+.codex/
+.agents/
+
+# Large source PDFs are kept locally; track extracted text and structured notes instead.
+参考书/**/*.pdf
+大纲/**/*.pdf

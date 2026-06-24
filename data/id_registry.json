@@ -1,0 +1,2399 @@
+{
+  "version": 1,
+  "assigned_ids": {
+    "DS-KP-X55SJOFV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "基本概念",
+      "original_topic": "数据结构的基本概念",
+      "original_order": 1,
+      "current_path": "knowledge/数据结构与算法/基本概念/数据结构的基本概念__DS-KP-X55SJOFV.md"
+    },
+    "DS-KP-6MPYWX24": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "基本概念",
+      "original_topic": "算法的基本概念",
+      "original_order": 2,
+      "current_path": "knowledge/数据结构与算法/基本概念/算法的基本概念__DS-KP-6MPYWX24.md"
+    },
+    "DS-KP-3ILIXKFF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "线性表",
+      "original_topic": "线性表的基本概念",
+      "original_order": 3,
+      "current_path": "knowledge/数据结构与算法/线性表/线性表的基本概念__DS-KP-3ILIXKFF.md"
+    },
+    "DS-KP-OHO3PQKU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "线性表",
+      "original_topic": "顺序存储",
+      "original_order": 4,
+      "current_path": "knowledge/数据结构与算法/线性表/顺序存储__DS-KP-OHO3PQKU.md"
+    },
+    "DS-KP-AJOWZTET": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "线性表",
+      "original_topic": "链式存储",
+      "original_order": 5,
+      "current_path": "knowledge/数据结构与算法/线性表/链式存储__DS-KP-AJOWZTET.md"
+    },
+    "DS-KP-6VXZLZ6Z": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "线性表",
+      "original_topic": "线性表的应用",
+      "original_order": 6,
+      "current_path": "knowledge/数据结构与算法/线性表/线性表的应用__DS-KP-6VXZLZ6Z.md"
+    },
+    "DS-KP-STUN3UFN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "栈和队列的基本概念",
+      "original_order": 7,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/栈和队列的基本概念__DS-KP-STUN3UFN.md"
+    },
+    "DS-KP-22YK2GSC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "栈和队列的顺序存储结构",
+      "original_order": 8,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/栈和队列的顺序存储结构__DS-KP-22YK2GSC.md"
+    },
+    "DS-KP-R7FK22ZL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "栈和队列的链式存储结构",
+      "original_order": 9,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/栈和队列的链式存储结构__DS-KP-R7FK22ZL.md"
+    },
+    "DS-KP-EOPIOCRV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "多维数组的 存储",
+      "original_order": 10,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/多维数组的 存储__DS-KP-EOPIOCRV.md"
+    },
+    "DS-KP-IVW7ICKU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "特殊矩阵的压缩存储",
+      "original_order": 11,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/特殊矩阵的压缩存储__DS-KP-IVW7ICKU.md"
+    },
+    "DS-KP-XQSHWXDQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "栈、队列和数组",
+      "original_topic": "栈、队列和数组的应用",
+      "original_order": 12,
+      "current_path": "knowledge/数据结构与算法/栈、队列和数组/栈、队列和数组的应用__DS-KP-XQSHWXDQ.md"
+    },
+    "DS-KP-GWQKJ2M7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "树的基本概念",
+      "original_order": 13,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/树的基本概念__DS-KP-GWQKJ2M7.md"
+    },
+    "DS-KP-33CIWKY2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "二叉树的定义及其主要特征",
+      "original_order": 14,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/二叉树的定义及其主要特征__DS-KP-33CIWKY2.md"
+    },
+    "DS-KP-KCPBPV7K": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "二叉树的顺序存储结构和链式存储结构",
+      "original_order": 15,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/二叉树的顺序存储结构和链式存储结构__DS-KP-KCPBPV7K.md"
+    },
+    "DS-KP-JHTIIVCJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "二叉树的遍历",
+      "original_order": 16,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/二叉树的遍历__DS-KP-JHTIIVCJ.md"
+    },
+    "DS-KP-3GABVINT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "线索二叉树的基本概念和构造",
+      "original_order": 17,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/线索二叉树的基本概念和构造__DS-KP-3GABVINT.md"
+    },
+    "DS-KP-4PRVK7AR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "树的存储结构",
+      "original_order": 18,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/树的存储结构__DS-KP-4PRVK7AR.md"
+    },
+    "DS-KP-E7HROFWV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "森林与二叉树的转换",
+      "original_order": 19,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/森林与二叉树的转换__DS-KP-E7HROFWV.md"
+    },
+    "DS-KP-WOQSQZAA": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "树和森林的遍历",
+      "original_order": 20,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/树和森林的遍历__DS-KP-WOQSQZAA.md"
+    },
+    "DS-KP-7BL2P2ZJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "哈夫曼 (Huffman) 树和哈夫曼编码",
+      "original_order": 21,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/哈夫曼 (Huffman) 树和哈夫曼编码__DS-KP-7BL2P2ZJ.md"
+    },
+    "DS-KP-DKWLXWOI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "并查集及其应用",
+      "original_order": 22,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/并查集及其应用__DS-KP-DKWLXWOI.md"
+    },
+    "DS-KP-NFDS76JM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "树与二叉树",
+      "original_topic": "堆及其应用",
+      "original_order": 23,
+      "current_path": "knowledge/数据结构与算法/树与二叉树/堆及其应用__DS-KP-NFDS76JM.md"
+    },
+    "DS-KP-M3YUG4IX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "图的基本概念",
+      "original_order": 24,
+      "current_path": "knowledge/数据结构与算法/图/图的基本概念__DS-KP-M3YUG4IX.md"
+    },
+    "DS-KP-IK7455W6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "邻接矩阵法",
+      "original_order": 25,
+      "current_path": "knowledge/数据结构与算法/图/邻接矩阵法__DS-KP-IK7455W6.md"
+    },
+    "DS-KP-TML5UBPO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "邻接表法",
+      "original_order": 26,
+      "current_path": "knowledge/数据结构与算法/图/邻接表法__DS-KP-TML5UBPO.md"
+    },
+    "DS-KP-BUWV37RO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "邻接多重表、十字链表",
+      "original_order": 27,
+      "current_path": "knowledge/数据结构与算法/图/邻接多重表、十字链表__DS-KP-BUWV37RO.md"
+    },
+    "DS-KP-4DLIPMXM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "深度优先搜索",
+      "original_order": 28,
+      "current_path": "knowledge/数据结构与算法/图/深度优先搜索__DS-KP-4DLIPMXM.md"
+    },
+    "DS-KP-ULN6YPXT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "广度优先搜索",
+      "original_order": 29,
+      "current_path": "knowledge/数据结构与算法/图/广度优先搜索__DS-KP-ULN6YPXT.md"
+    },
+    "DS-KP-NGLQEFV4": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "最小 (代价) 生成树",
+      "original_order": 30,
+      "current_path": "knowledge/数据结构与算法/图/最小 (代价) 生成树__DS-KP-NGLQEFV4.md"
+    },
+    "DS-KP-NXZQ7LP7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "最短路径",
+      "original_order": 31,
+      "current_path": "knowledge/数据结构与算法/图/最短路径__DS-KP-NXZQ7LP7.md"
+    },
+    "DS-KP-ISR6P6F7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "拓扑排序",
+      "original_order": 32,
+      "current_path": "knowledge/数据结构与算法/图/拓扑排序__DS-KP-ISR6P6F7.md"
+    },
+    "DS-KP-KS4DA5SC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "图",
+      "original_topic": "关键路径",
+      "original_order": 33,
+      "current_path": "knowledge/数据结构与算法/图/关键路径__DS-KP-KS4DA5SC.md"
+    },
+    "DS-KP-ILQ4BLBQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "查找的基本概念",
+      "original_order": 34,
+      "current_path": "knowledge/数据结构与算法/查找/查找的基本概念__DS-KP-ILQ4BLBQ.md"
+    },
+    "DS-KP-NU4CGQV5": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "顺序查找法",
+      "original_order": 35,
+      "current_path": "knowledge/数据结构与算法/查找/顺序查找法__DS-KP-NU4CGQV5.md"
+    },
+    "DS-KP-AXID5OHW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "分块查找法",
+      "original_order": 36,
+      "current_path": "knowledge/数据结构与算法/查找/分块查找法__DS-KP-AXID5OHW.md"
+    },
+    "DS-KP-UXX7FW7R": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "折半查找法",
+      "original_order": 37,
+      "current_path": "knowledge/数据结构与算法/查找/折半查找法__DS-KP-UXX7FW7R.md"
+    },
+    "DS-KP-D3CR6UWR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "二叉搜索树",
+      "original_order": 38,
+      "current_path": "knowledge/数据结构与算法/查找/二叉搜索树__DS-KP-D3CR6UWR.md"
+    },
+    "DS-KP-STO7FCBW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "平衡二叉树",
+      "original_order": 39,
+      "current_path": "knowledge/数据结构与算法/查找/平衡二叉树__DS-KP-STO7FCBW.md"
+    },
+    "DS-KP-GRF563N6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "红黑树",
+      "original_order": 40,
+      "current_path": "knowledge/数据结构与算法/查找/红黑树__DS-KP-GRF563N6.md"
+    },
+    "DS-KP-NHTKRZEA": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "B 树及其基本操作、 B+ 树的基本概念",
+      "original_order": 41,
+      "current_path": "knowledge/数据结构与算法/查找/B 树及其基本操作、 B+ 树的基本概念__DS-KP-NHTKRZEA.md"
+    },
+    "DS-KP-VTAN5QYX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "散列 (Hash) 表",
+      "original_order": 42,
+      "current_path": "knowledge/数据结构与算法/查找/散列 (Hash) 表__DS-KP-VTAN5QYX.md"
+    },
+    "DS-KP-324K2R5H": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "字符串模式匹配",
+      "original_order": 43,
+      "current_path": "knowledge/数据结构与算法/查找/字符串模式匹配__DS-KP-324K2R5H.md"
+    },
+    "DS-KP-TWUWEIRQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "查找",
+      "original_topic": "查找算法的分析及应用",
+      "original_order": 44,
+      "current_path": "knowledge/数据结构与算法/查找/查找算法的分析及应用__DS-KP-TWUWEIRQ.md"
+    },
+    "DS-KP-YJX6VUBR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "排序的基本概念",
+      "original_order": 45,
+      "current_path": "knowledge/数据结构与算法/排序/排序的基本概念__DS-KP-YJX6VUBR.md"
+    },
+    "DS-KP-Q7ZBHJJ6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "直接插入排序",
+      "original_order": 46,
+      "current_path": "knowledge/数据结构与算法/排序/直接插入排序__DS-KP-Q7ZBHJJ6.md"
+    },
+    "DS-KP-247AIXWJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "折半插入排序",
+      "original_order": 47,
+      "current_path": "knowledge/数据结构与算法/排序/折半插入排序__DS-KP-247AIXWJ.md"
+    },
+    "DS-KP-HASPKEPH": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "起泡排序 (b ubble s ort)",
+      "original_order": 48,
+      "current_path": "knowledge/数据结构与算法/排序/起泡排序 (b ubble s ort)__DS-KP-HASPKEPH.md"
+    },
+    "DS-KP-PRDGKP7R": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "简单选择排序",
+      "original_order": 49,
+      "current_path": "knowledge/数据结构与算法/排序/简单选择排序__DS-KP-PRDGKP7R.md"
+    },
+    "DS-KP-E74ODERZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "希尔排序 (s hell s ort)",
+      "original_order": 50,
+      "current_path": "knowledge/数据结构与算法/排序/希尔排序 (s hell s ort)__DS-KP-E74ODERZ.md"
+    },
+    "DS-KP-UJ6RXDLI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "快速排序",
+      "original_order": 51,
+      "current_path": "knowledge/数据结构与算法/排序/快速排序__DS-KP-UJ6RXDLI.md"
+    },
+    "DS-KP-4L6UHXEB": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "堆排序",
+      "original_order": 52,
+      "current_path": "knowledge/数据结构与算法/排序/堆排序__DS-KP-4L6UHXEB.md"
+    },
+    "DS-KP-2UBFG3DE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "二路归并排序 (m erge s ort)",
+      "original_order": 53,
+      "current_path": "knowledge/数据结构与算法/排序/二路归并排序 (m erge s ort)__DS-KP-2UBFG3DE.md"
+    },
+    "DS-KP-UFRPKEX3": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "基数排序",
+      "original_order": 54,
+      "current_path": "knowledge/数据结构与算法/排序/基数排序__DS-KP-UFRPKEX3.md"
+    },
+    "DS-KP-XJR3MESL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "外部排序",
+      "original_order": 55,
+      "current_path": "knowledge/数据结构与算法/排序/外部排序__DS-KP-XJR3MESL.md"
+    },
+    "DS-KP-LT76IWDN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "数据结构",
+      "original_chapter": "排序",
+      "original_topic": "排序算法的分析和 应用",
+      "original_order": 56,
+      "current_path": "knowledge/数据结构与算法/排序/排序算法的分析和 应用__DS-KP-LT76IWDN.md"
+    },
+    "CO-KP-MPLFWPUZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "计算机系统概述",
+      "original_topic": "计算机系统的基本组成",
+      "original_order": 57,
+      "current_path": "knowledge/计算机组成原理/计算机系统概述/计算机系统的基本组成__CO-KP-MPLFWPUZ.md"
+    },
+    "CO-KP-VVBIKOXR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "计算机系统概述",
+      "original_topic": "计算机硬件的基本结构",
+      "original_order": 58,
+      "current_path": "knowledge/计算机组成原理/计算机系统概述/计算机硬件的基本结构__CO-KP-VVBIKOXR.md"
+    },
+    "CO-KP-P5DQWHJV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "计算机系统概述",
+      "original_topic": "计算机软件和硬件的关系",
+      "original_order": 59,
+      "current_path": "knowledge/计算机组成原理/计算机系统概述/计算机软件和硬件的关系__CO-KP-P5DQWHJV.md"
+    },
+    "CO-KP-QACDQFXA": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "计算机系统概述",
+      "original_topic": "计算机系统的工作原理",
+      "original_order": 60,
+      "current_path": "knowledge/计算机组成原理/计算机系统概述/计算机系统的工作原理__CO-KP-QACDQFXA.md"
+    },
+    "CO-KP-SS5KXSZD": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "计算机系统概述",
+      "original_topic": "计算机性能指标",
+      "original_order": 61,
+      "current_path": "knowledge/计算机组成原理/计算机系统概述/计算机性能指标__CO-KP-SS5KXSZD.md"
+    },
+    "CO-KP-XLSG7CBC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "进位计数制及其数据之间的相互转换",
+      "original_order": 62,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/进位计数制及其数据之间的相互转换__CO-KP-XLSG7CBC.md"
+    },
+    "CO-KP-GS27GCKO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "定点数的编码表示",
+      "original_order": 63,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/定点数的编码表示__CO-KP-GS27GCKO.md"
+    },
+    "CO-KP-ZSSTU2TZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "基本运算部件：加法器、算术逻辑部件(ALU)",
+      "original_order": 64,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/基本运算部件：加法器、算术逻辑部件(ALU)__CO-KP-ZSSTU2TZ.md"
+    },
+    "CO-KP-DBZTUEBF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "加 / 减运算：补码加 / 减运算器，标志位的生成",
+      "original_order": 65,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/加 - 减运算：补码加 - 减运算器，标志位的生成__CO-KP-DBZTUEBF.md"
+    },
+    "CO-KP-WNHWASV4": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "乘 / 除运算：乘 / 除运算的基本原理，乘法电路与 除法电路的基本结构",
+      "original_order": 66,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/乘 - 除运算：乘 - 除运算的基本原理，乘法电路与 除法电路的基本结构__CO-KP-WNHWASV4.md"
+    },
+    "CO-KP-MY5UKFJH": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "无符号整数的表示与运算",
+      "original_order": 67,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/无符号整数的表示与运算__CO-KP-MY5UKFJH.md"
+    },
+    "CO-KP-CI37KP7Q": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "带符号整数的表示与运算",
+      "original_order": 68,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/带符号整数的表示与运算__CO-KP-CI37KP7Q.md"
+    },
+    "CO-KP-SQ4KPBLI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "浮点数的表示",
+      "original_order": 69,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/浮点数的表示__CO-KP-SQ4KPBLI.md"
+    },
+    "CO-KP-WW26CROO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "数据的表示和运算",
+      "original_topic": "浮点数的加 / 减运算",
+      "original_order": 70,
+      "current_path": "knowledge/计算机组成原理/数据的表示和运算/浮点数的加 - 减运算__CO-KP-WW26CROO.md"
+    },
+    "CO-KP-2XXIPX7C": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "存储器的分类",
+      "original_order": 71,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/存储器的分类__CO-KP-2XXIPX7C.md"
+    },
+    "CO-KP-NJDH4LUJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "层次化存储器的基本结构",
+      "original_order": 72,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/层次化存储器的基本结构__CO-KP-NJDH4LUJ.md"
+    },
+    "CO-KP-7IWBJN3F": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "SRAM 存储器",
+      "original_order": 73,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/SRAM 存储器__CO-KP-7IWBJN3F.md"
+    },
+    "CO-KP-LRWJRUP7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "DRAM 存储器",
+      "original_order": 74,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/DRAM 存储器__CO-KP-LRWJRUP7.md"
+    },
+    "CO-KP-4NNMEXMW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "Flash 存储器",
+      "original_order": 75,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/Flash 存储器__CO-KP-4NNMEXMW.md"
+    },
+    "CO-KP-AEWG62DZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "DRAM 芯片和内存条",
+      "original_order": 76,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/DRAM 芯片和内存条__CO-KP-AEWG62DZ.md"
+    },
+    "CO-KP-ICAUR4VZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "多模块存储器",
+      "original_order": 77,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/多模块存储器__CO-KP-ICAUR4VZ.md"
+    },
+    "CO-KP-NNITZKYK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "主存和 CPU 之间的连接",
+      "original_order": 78,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/主存和 CPU 之间的连接__CO-KP-NNITZKYK.md"
+    },
+    "CO-KP-HABNXYUX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "磁盘存储器",
+      "original_order": 79,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/磁盘存储器__CO-KP-HABNXYUX.md"
+    },
+    "CO-KP-GT64VTCZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "固态硬盘(SSD)",
+      "original_order": 80,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/固态硬盘(SSD)__CO-KP-GT64VTCZ.md"
+    },
+    "CO-KP-3BPMOJFK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "Cache 的基本工作原理",
+      "original_order": 81,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/Cache 的基本工作原理__CO-KP-3BPMOJFK.md"
+    },
+    "CO-KP-FIJPYOA3": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "Cach 和主存之间的映射方式",
+      "original_order": 82,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/Cach 和主存之间的映射方式__CO-KP-FIJPYOA3.md"
+    },
+    "CO-KP-XYEXMKME": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "Cache 中主存块的替换算法",
+      "original_order": 83,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/Cache 中主存块的替换算法__CO-KP-XYEXMKME.md"
+    },
+    "CO-KP-U6SVVUAU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "Cache 写策略",
+      "original_order": 84,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/Cache 写策略__CO-KP-U6SVVUAU.md"
+    },
+    "CO-KP-Y2X7RM2G": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "虚拟存储器的基本概念",
+      "original_order": 85,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/虚拟存储器的基本概念__CO-KP-Y2X7RM2G.md"
+    },
+    "CO-KP-KO6TLYES": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "页式虚拟存储器",
+      "original_order": 86,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/页式虚拟存储器__CO-KP-KO6TLYES.md"
+    },
+    "CO-KP-QJLIISM6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "段式虚拟存储器的基本原理",
+      "original_order": 87,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/段式虚拟存储器的基本原理__CO-KP-QJLIISM6.md"
+    },
+    "CO-KP-2L46FT7T": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "存储器层次结构",
+      "original_topic": "段页式虚拟存储器的基本原理",
+      "original_order": 88,
+      "current_path": "knowledge/计算机组成原理/存储器层次结构/段页式虚拟存储器的基本原理__CO-KP-2L46FT7T.md"
+    },
+    "CO-KP-I7NOJJUD": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "指令系统的基本概念",
+      "original_order": 89,
+      "current_path": "knowledge/计算机组成原理/指令系统/指令系统的基本概念__CO-KP-I7NOJJUD.md"
+    },
+    "CO-KP-T2P4MGE7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "指令格式",
+      "original_order": 90,
+      "current_path": "knowledge/计算机组成原理/指令系统/指令格式__CO-KP-T2P4MGE7.md"
+    },
+    "CO-KP-V67MEE7G": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "寻址方式",
+      "original_order": 91,
+      "current_path": "knowledge/计算机组成原理/指令系统/寻址方式__CO-KP-V67MEE7G.md"
+    },
+    "CO-KP-HTV2DJSK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "数据的对齐和大 / 小端存放方式",
+      "original_order": 92,
+      "current_path": "knowledge/计算机组成原理/指令系统/数据的对齐和大 - 小端存放方式__CO-KP-HTV2DJSK.md"
+    },
+    "CO-KP-LCL7LEDR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "CISC 和 RISC 的基本概念",
+      "original_order": 93,
+      "current_path": "knowledge/计算机组成原理/指令系统/CISC 和 RISC 的基本概念__CO-KP-LCL7LEDR.md"
+    },
+    "CO-KP-PBRXJSRJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "编译器、汇编器和链接器的基本概念",
+      "original_order": 94,
+      "current_path": "knowledge/计算机组成原理/指令系统/编译器、汇编器和链接器的基本概念__CO-KP-PBRXJSRJ.md"
+    },
+    "CO-KP-FGWCRPDL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "选择结构语句的机器级表示",
+      "original_order": 95,
+      "current_path": "knowledge/计算机组成原理/指令系统/选择结构语句的机器级表示__CO-KP-FGWCRPDL.md"
+    },
+    "CO-KP-PPWJXORB": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "循环结构语句的机器级表示",
+      "original_order": 96,
+      "current_path": "knowledge/计算机组成原理/指令系统/循环结构语句的机器级表示__CO-KP-PPWJXORB.md"
+    },
+    "CO-KP-3IQA7WE3": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "指令系统",
+      "original_topic": "过程（函数）调用对应的机器级表示",
+      "original_order": 97,
+      "current_path": "knowledge/计算机组成原理/指令系统/过程（函数）调用对应的机器级表示__CO-KP-3IQA7WE3.md"
+    },
+    "CO-KP-XKXATMNC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "CPU 的功能和基本结构",
+      "original_order": 98,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/CPU 的功能和基本结构__CO-KP-XKXATMNC.md"
+    },
+    "CO-KP-N5ENTL5P": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "指令执行过程",
+      "original_order": 99,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/指令执行过程__CO-KP-N5ENTL5P.md"
+    },
+    "CO-KP-OC2KUHNW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "数据通路的功能和基本结构",
+      "original_order": 100,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/数据通路的功能和基本结构__CO-KP-OC2KUHNW.md"
+    },
+    "CO-KP-UDDH2CRX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "控制器的功能和工作原理",
+      "original_order": 101,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/控制器的功能和工作原理__CO-KP-UDDH2CRX.md"
+    },
+    "CO-KP-3CG3AG74": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "异常和中断的基本概念",
+      "original_order": 102,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/异常和中断的基本概念__CO-KP-3CG3AG74.md"
+    },
+    "CO-KP-VY44Z7WZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "异常和中断的分类",
+      "original_order": 103,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/异常和中断的分类__CO-KP-VY44Z7WZ.md"
+    },
+    "CO-KP-7BRVKB6I": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "异常和中断的检测与响应",
+      "original_order": 104,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/异常和中断的检测与响应__CO-KP-7BRVKB6I.md"
+    },
+    "CO-KP-REROT3T2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "指令流水线的基本概念",
+      "original_order": 105,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/指令流水线的基本概念__CO-KP-REROT3T2.md"
+    },
+    "CO-KP-NPGD6YRO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "指令流水线的基本实现",
+      "original_order": 106,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/指令流水线的基本实现__CO-KP-NPGD6YRO.md"
+    },
+    "CO-KP-EEOUP733": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "结构冒险、数据冒险和控制冒险的处理",
+      "original_order": 107,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/结构冒险、数据冒险和控制冒险的处理__CO-KP-EEOUP733.md"
+    },
+    "CO-KP-PWH7LPEE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "超标量和动态流水线的基本概念",
+      "original_order": 108,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/超标量和动态流水线的基本概念__CO-KP-PWH7LPEE.md"
+    },
+    "CO-KP-XDC3IWRS": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "SISD， SIMD， MIMD、向量处理器的基本概念",
+      "original_order": 109,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/SISD， SIMD， MIMD、向量处理器的基本概念__CO-KP-XDC3IWRS.md"
+    },
+    "CO-KP-37MJSJVX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "硬件多线程的基本概念",
+      "original_order": 110,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/硬件多线程的基本概念__CO-KP-37MJSJVX.md"
+    },
+    "CO-KP-FFMA72VI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "多核处理器（multi - core）的基本概念",
+      "original_order": 111,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/多核处理器（multi - core）的基本概念__CO-KP-FFMA72VI.md"
+    },
+    "CO-KP-4RRBGZUG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "中央处理器 (CPU)",
+      "original_topic": "共享内存多处理器（SMP）的基本概念",
+      "original_order": 112,
+      "current_path": "knowledge/计算机组成原理/中央处理器 (CPU)/共享内存多处理器（SMP）的基本概念__CO-KP-4RRBGZUG.md"
+    },
+    "CO-KP-FNIKIOLD": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "总线的基本概念",
+      "original_order": 113,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/总线的基本概念__CO-KP-FNIKIOLD.md"
+    },
+    "CO-KP-KE3NXLFS": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "总线的组成及性能指标",
+      "original_order": 114,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/总线的组成及性能指标__CO-KP-KE3NXLFS.md"
+    },
+    "CO-KP-EQKIYPEI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "总线的事务和定时",
+      "original_order": 115,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/总线的事务和定时__CO-KP-EQKIYPEI.md"
+    },
+    "CO-KP-OUWY5HVE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "I/O 接口的功能和基本结构",
+      "original_order": 116,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/I-O 接口的功能和基本结构__CO-KP-OUWY5HVE.md"
+    },
+    "CO-KP-FDZVKW2G": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "I/O 端口及其编址",
+      "original_order": 117,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/I-O 端口及其编址__CO-KP-FDZVKW2G.md"
+    },
+    "CO-KP-PFF4IR5V": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "程序查询方式",
+      "original_order": 118,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/程序查询方式__CO-KP-PFF4IR5V.md"
+    },
+    "CO-KP-PUETTQK7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "程序中断方式",
+      "original_order": 119,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/程序中断方式__CO-KP-PUETTQK7.md"
+    },
+    "CO-KP-5J4HVYNT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机组成原理",
+      "original_chapter": "总线和输入输出系统",
+      "original_topic": "DMA 方式 DMA 控制器的组成， DMA 传送过程。",
+      "original_order": 120,
+      "current_path": "knowledge/计算机组成原理/总线和输入输出系统/DMA 方式 DMA 控制器的组成， DMA 传送过程。__CO-KP-5J4HVYNT.md"
+    },
+    "OS-KP-5J6VFRID": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "操作系统的基本概念",
+      "original_order": 121,
+      "current_path": "knowledge/操作系统/操作系统概述/操作系统的基本概念__OS-KP-5J6VFRID.md"
+    },
+    "OS-KP-3RTAP7RF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "操作系统的发展历程",
+      "original_order": 122,
+      "current_path": "knowledge/操作系统/操作系统概述/操作系统的发展历程__OS-KP-3RTAP7RF.md"
+    },
+    "OS-KP-YKQS6WKA": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "CPU 运行模式",
+      "original_order": 123,
+      "current_path": "knowledge/操作系统/操作系统概述/CPU 运行模式__OS-KP-YKQS6WKA.md"
+    },
+    "OS-KP-UYRCGY5Z": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "中断和异常的处理",
+      "original_order": 124,
+      "current_path": "knowledge/操作系统/操作系统概述/中断和异常的处理__OS-KP-UYRCGY5Z.md"
+    },
+    "OS-KP-DCUI3DM2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "系统调用",
+      "original_order": 125,
+      "current_path": "knowledge/操作系统/操作系统概述/系统调用__OS-KP-DCUI3DM2.md"
+    },
+    "OS-KP-BJGDGRUS": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "程序的链接与装入",
+      "original_order": 126,
+      "current_path": "knowledge/操作系统/操作系统概述/程序的链接与装入__OS-KP-BJGDGRUS.md"
+    },
+    "OS-KP-L6WLEN7F": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "程序运行时内存映像与地址空间",
+      "original_order": 127,
+      "current_path": "knowledge/操作系统/操作系统概述/程序运行时内存映像与地址空间__OS-KP-L6WLEN7F.md"
+    },
+    "OS-KP-MJGT75WF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "操作系统结构",
+      "original_order": 128,
+      "current_path": "knowledge/操作系统/操作系统概述/操作系统结构__OS-KP-MJGT75WF.md"
+    },
+    "OS-KP-IBHKQEIN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "操作系统引导",
+      "original_order": 129,
+      "current_path": "knowledge/操作系统/操作系统概述/操作系统引导__OS-KP-IBHKQEIN.md"
+    },
+    "OS-KP-4BOR5JZB": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "操作系统概述",
+      "original_topic": "虚拟机",
+      "original_order": 130,
+      "current_path": "knowledge/操作系统/操作系统概述/虚拟机__OS-KP-4BOR5JZB.md"
+    },
+    "OS-KP-H2P42J6Y": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "进程与线程的基本概念",
+      "original_order": 131,
+      "current_path": "knowledge/操作系统/进程管理/进程与线程的基本概念__OS-KP-H2P42J6Y.md"
+    },
+    "OS-KP-YNVA5IRG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "进程 / 线程的状态与转换",
+      "original_order": 132,
+      "current_path": "knowledge/操作系统/进程管理/进程 - 线程的状态与转换__OS-KP-YNVA5IRG.md"
+    },
+    "OS-KP-Y5527E6E": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "线程的实现",
+      "original_order": 133,
+      "current_path": "knowledge/操作系统/进程管理/线程的实现__OS-KP-Y5527E6E.md"
+    },
+    "OS-KP-NZPSG73A": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "进程与线程的组织与控制",
+      "original_order": 134,
+      "current_path": "knowledge/操作系统/进程管理/进程与线程的组织与控制__OS-KP-NZPSG73A.md"
+    },
+    "OS-KP-32EV6HLK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "进程间通信",
+      "original_order": 135,
+      "current_path": "knowledge/操作系统/进程管理/进程间通信__OS-KP-32EV6HLK.md"
+    },
+    "OS-KP-56VWQI4K": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "调度的基本概念",
+      "original_order": 136,
+      "current_path": "knowledge/操作系统/进程管理/调度的基本概念__OS-KP-56VWQI4K.md"
+    },
+    "OS-KP-L7DJGZM5": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "调度的目标",
+      "original_order": 137,
+      "current_path": "knowledge/操作系统/进程管理/调度的目标__OS-KP-L7DJGZM5.md"
+    },
+    "OS-KP-H34O4BM7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "调度的实现",
+      "original_order": 138,
+      "current_path": "knowledge/操作系统/进程管理/调度的实现__OS-KP-H34O4BM7.md"
+    },
+    "OS-KP-SMLR3ZIO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "CPU 调度算法",
+      "original_order": 139,
+      "current_path": "knowledge/操作系统/进程管理/CPU 调度算法__OS-KP-SMLR3ZIO.md"
+    },
+    "OS-KP-RBUNHPFQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "多处理机调度",
+      "original_order": 140,
+      "current_path": "knowledge/操作系统/进程管理/多处理机调度__OS-KP-RBUNHPFQ.md"
+    },
+    "OS-KP-QNOCRE2E": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "上下文及其切换机制",
+      "original_order": 141,
+      "current_path": "knowledge/操作系统/进程管理/上下文及其切换机制__OS-KP-QNOCRE2E.md"
+    },
+    "OS-KP-E7WDRF4M": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "同步与互斥的基本概念",
+      "original_order": 142,
+      "current_path": "knowledge/操作系统/进程管理/同步与互斥的基本概念__OS-KP-E7WDRF4M.md"
+    },
+    "OS-KP-JS5SQ3FQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "基本的实现方法",
+      "original_order": 143,
+      "current_path": "knowledge/操作系统/进程管理/基本的实现方法__OS-KP-JS5SQ3FQ.md"
+    },
+    "OS-KP-JZYEQLYL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "锁",
+      "original_order": 144,
+      "current_path": "knowledge/操作系统/进程管理/锁__OS-KP-JZYEQLYL.md"
+    },
+    "OS-KP-2GYBYTVX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "信号量",
+      "original_order": 145,
+      "current_path": "knowledge/操作系统/进程管理/信号量__OS-KP-2GYBYTVX.md"
+    },
+    "OS-KP-4M4CSHCC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "条件变量",
+      "original_order": 146,
+      "current_path": "knowledge/操作系统/进程管理/条件变量__OS-KP-4M4CSHCC.md"
+    },
+    "OS-KP-EG4R2WDQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "经典同步问题",
+      "original_order": 147,
+      "current_path": "knowledge/操作系统/进程管理/经典同步问题__OS-KP-EG4R2WDQ.md"
+    },
+    "OS-KP-PLCBJO3T": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "死锁的基本概念",
+      "original_order": 148,
+      "current_path": "knowledge/操作系统/进程管理/死锁的基本概念__OS-KP-PLCBJO3T.md"
+    },
+    "OS-KP-BFWCILLN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "死锁预防",
+      "original_order": 149,
+      "current_path": "knowledge/操作系统/进程管理/死锁预防__OS-KP-BFWCILLN.md"
+    },
+    "OS-KP-TYCTZ63V": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "死锁避免",
+      "original_order": 150,
+      "current_path": "knowledge/操作系统/进程管理/死锁避免__OS-KP-TYCTZ63V.md"
+    },
+    "OS-KP-3ZA7OMDG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "进程管理",
+      "original_topic": "死锁检测和解除",
+      "original_order": 151,
+      "current_path": "knowledge/操作系统/进程管理/死锁检测和解除__OS-KP-3ZA7OMDG.md"
+    },
+    "OS-KP-5D3IXXIH": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "内存管理的基本概念",
+      "original_order": 152,
+      "current_path": "knowledge/操作系统/内存管理/内存管理的基本概念__OS-KP-5D3IXXIH.md"
+    },
+    "OS-KP-CSIKE3O5": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "连续分配管理方式",
+      "original_order": 153,
+      "current_path": "knowledge/操作系统/内存管理/连续分配管理方式__OS-KP-CSIKE3O5.md"
+    },
+    "OS-KP-TJPLNZBT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "页式管理",
+      "original_order": 154,
+      "current_path": "knowledge/操作系统/内存管理/页式管理__OS-KP-TJPLNZBT.md"
+    },
+    "OS-KP-663IBQNV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "段式管理",
+      "original_order": 155,
+      "current_path": "knowledge/操作系统/内存管理/段式管理__OS-KP-663IBQNV.md"
+    },
+    "OS-KP-MMOX5V5D": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "段页式管理",
+      "original_order": 156,
+      "current_path": "knowledge/操作系统/内存管理/段页式管理__OS-KP-MMOX5V5D.md"
+    },
+    "OS-KP-OFJ3KNKP": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "虚拟内存的基本概念",
+      "original_order": 157,
+      "current_path": "knowledge/操作系统/内存管理/虚拟内存的基本概念__OS-KP-OFJ3KNKP.md"
+    },
+    "OS-KP-XTOQAVSY": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "请求页式管理",
+      "original_order": 158,
+      "current_path": "knowledge/操作系统/内存管理/请求页式管理__OS-KP-XTOQAVSY.md"
+    },
+    "OS-KP-E2ZZBKXZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "页框 分配与回收",
+      "original_order": 159,
+      "current_path": "knowledge/操作系统/内存管理/页框 分配与回收__OS-KP-E2ZZBKXZ.md"
+    },
+    "OS-KP-FER4OU5P": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "页置换算法",
+      "original_order": 160,
+      "current_path": "knowledge/操作系统/内存管理/页置换算法__OS-KP-FER4OU5P.md"
+    },
+    "OS-KP-AWPEM4EQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "内存映射文件（M emory - M apped F iles）",
+      "original_order": 161,
+      "current_path": "knowledge/操作系统/内存管理/内存映射文件（M emory - M apped F iles）__OS-KP-AWPEM4EQ.md"
+    },
+    "OS-KP-FYXN3O7J": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "内存管理",
+      "original_topic": "虚拟存储器性能的影响因素及改进方法",
+      "original_order": 162,
+      "current_path": "knowledge/操作系统/内存管理/虚拟存储器性能的影响因素及改进方法__OS-KP-FYXN3O7J.md"
+    },
+    "OS-KP-VJUA7L2G": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件的基本概念",
+      "original_order": 163,
+      "current_path": "knowledge/操作系统/文件管理/文件的基本概念__OS-KP-VJUA7L2G.md"
+    },
+    "OS-KP-XV7N7NSQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件元数据和索引节点（inode）",
+      "original_order": 164,
+      "current_path": "knowledge/操作系统/文件管理/文件元数据和索引节点（inode）__OS-KP-XV7N7NSQ.md"
+    },
+    "OS-KP-57JK4GGR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件的操作",
+      "original_order": 165,
+      "current_path": "knowledge/操作系统/文件管理/文件的操作__OS-KP-57JK4GGR.md"
+    },
+    "OS-KP-XRF4QVLQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件的保护",
+      "original_order": 166,
+      "current_path": "knowledge/操作系统/文件管理/文件的保护__OS-KP-XRF4QVLQ.md"
+    },
+    "OS-KP-SZT4TGWT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件的逻辑结构",
+      "original_order": 167,
+      "current_path": "knowledge/操作系统/文件管理/文件的逻辑结构__OS-KP-SZT4TGWT.md"
+    },
+    "OS-KP-74RQCD4E": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件的物理结构",
+      "original_order": 168,
+      "current_path": "knowledge/操作系统/文件管理/文件的物理结构__OS-KP-74RQCD4E.md"
+    },
+    "OS-KP-XFM3Q4QU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "目录的基本概念",
+      "original_order": 169,
+      "current_path": "knowledge/操作系统/文件管理/目录的基本概念__OS-KP-XFM3Q4QU.md"
+    },
+    "OS-KP-XM4JLMYH": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "树形目录",
+      "original_order": 170,
+      "current_path": "knowledge/操作系统/文件管理/树形目录__OS-KP-XM4JLMYH.md"
+    },
+    "OS-KP-O5DTCBNQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "目录的操作",
+      "original_order": 171,
+      "current_path": "knowledge/操作系统/文件管理/目录的操作__OS-KP-O5DTCBNQ.md"
+    },
+    "OS-KP-UQPIB4FW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "硬链接和软链接",
+      "original_order": 172,
+      "current_path": "knowledge/操作系统/文件管理/硬链接和软链接__OS-KP-UQPIB4FW.md"
+    },
+    "OS-KP-UFP73XL3": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件系统的全局结构（l ayout）",
+      "original_order": 173,
+      "current_path": "knowledge/操作系统/文件管理/文件系统的全局结构（l ayout）__OS-KP-UFP73XL3.md"
+    },
+    "OS-KP-I4KRQN6T": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "外存空闲空间管理方法",
+      "original_order": 174,
+      "current_path": "knowledge/操作系统/文件管理/外存空闲空间管理方法__OS-KP-I4KRQN6T.md"
+    },
+    "OS-KP-Q4IDXIKG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "虚拟文件系统",
+      "original_order": 175,
+      "current_path": "knowledge/操作系统/文件管理/虚拟文件系统__OS-KP-Q4IDXIKG.md"
+    },
+    "OS-KP-HB66XFGW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "文件管理",
+      "original_topic": "文件系统挂载（mounting）",
+      "original_order": 176,
+      "current_path": "knowledge/操作系统/文件管理/文件系统挂载（mounting）__OS-KP-HB66XFGW.md"
+    },
+    "OS-KP-CEC3TKAQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "设备",
+      "original_order": 177,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/设备__OS-KP-CEC3TKAQ.md"
+    },
+    "OS-KP-PPUVG4QQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "I/0 控制方式",
+      "original_order": 178,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/I-0 控制方式__OS-KP-PPUVG4QQ.md"
+    },
+    "OS-KP-5AD474H2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "I/0 软件层次结构",
+      "original_order": 179,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/I-0 软件层次结构__OS-KP-5AD474H2.md"
+    },
+    "OS-KP-AAC44QD4": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "输入输出应用程序接口",
+      "original_order": 180,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/输入输出应用程序接口__OS-KP-AAC44QD4.md"
+    },
+    "OS-KP-NAJHLOXV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "缓冲区管理",
+      "original_order": 181,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/缓冲区管理__OS-KP-NAJHLOXV.md"
+    },
+    "OS-KP-L52MEPII": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "设备分配与回收",
+      "original_order": 182,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/设备分配与回收__OS-KP-L52MEPII.md"
+    },
+    "OS-KP-KMMTOXUE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "假脱机技术（SPOOLing）",
+      "original_order": 183,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/假脱机技术（SPOOLing）__OS-KP-KMMTOXUE.md"
+    },
+    "OS-KP-ZXWLTRIX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "设备驱动程序接口",
+      "original_order": 184,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/设备驱动程序接口__OS-KP-ZXWLTRIX.md"
+    },
+    "OS-KP-PPRUPWAI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "磁盘磁盘结构，格式化，分区，磁盘调度方法。",
+      "original_order": 185,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/磁盘磁盘结构，格式化，分区，磁盘调度方法。__OS-KP-PPRUPWAI.md"
+    },
+    "OS-KP-O6M7GCTF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "操作系统",
+      "original_chapter": "输入输出（I /0）管理",
+      "original_topic": "固态硬盘读写性能特性，磨损均衡。",
+      "original_order": 186,
+      "current_path": "knowledge/操作系统/输入输出（I-O）管理/固态硬盘读写性能特性，磨损均衡。__OS-KP-O6M7GCTF.md"
+    },
+    "CN-KP-KHRKEJO4": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "计算机网络的概念、组成与功能",
+      "original_order": 187,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/计算机网络的概念、组成与功能__CN-KP-KHRKEJO4.md"
+    },
+    "CN-KP-EKAP4S36": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "计算机网络的分类",
+      "original_order": 188,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/计算机网络的分类__CN-KP-EKAP4S36.md"
+    },
+    "CN-KP-K6226Y6C": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "计算机网络主要性能指标",
+      "original_order": 189,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/计算机网络主要性能指标__CN-KP-K6226Y6C.md"
+    },
+    "CN-KP-54KXUXJZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "计算机网络分层结构",
+      "original_order": 190,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/计算机网络分层结构__CN-KP-54KXUXJZ.md"
+    },
+    "CN-KP-VWTLKEBL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "计算机网络协议、接口、服务等概念",
+      "original_order": 191,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/计算机网络协议、接口、服务等概念__CN-KP-VWTLKEBL.md"
+    },
+    "CN-KP-PXLQNGUT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "计算机网络体系结构",
+      "original_topic": "ISO/OSI 参考模型和 TCP/IP 参考模型",
+      "original_order": 192,
+      "current_path": "knowledge/计算机网络/计算机网络体系结构/ISO-OSI 参考模型和 TCP-IP 参考模型__CN-KP-PXLQNGUT.md"
+    },
+    "CN-KP-2TH7ASVK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念",
+      "original_order": 193,
+      "current_path": "knowledge/计算机网络/物理层/信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念__CN-KP-2TH7ASVK.md"
+    },
+    "CN-KP-YKCQ36LO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "奈奎斯特定理与香农定理",
+      "original_order": 194,
+      "current_path": "knowledge/计算机网络/物理层/奈奎斯特定理与香农定理__CN-KP-YKCQ36LO.md"
+    },
+    "CN-KP-KXRSXODC": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "编码与调制",
+      "original_order": 195,
+      "current_path": "knowledge/计算机网络/物理层/编码与调制__CN-KP-KXRSXODC.md"
+    },
+    "CN-KP-FKER5CRU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "电路交换、报文交换与分组交换",
+      "original_order": 196,
+      "current_path": "knowledge/计算机网络/物理层/电路交换、报文交换与分组交换__CN-KP-FKER5CRU.md"
+    },
+    "CN-KP-DAWPSS4F": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "数据报与虚电路",
+      "original_order": 197,
+      "current_path": "knowledge/计算机网络/物理层/数据报与虚电路__CN-KP-DAWPSS4F.md"
+    },
+    "CN-KP-M7QHMIB5": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "双绞线、同轴电缆、光纤与无线传输介质",
+      "original_order": 198,
+      "current_path": "knowledge/计算机网络/物理层/双绞线、同轴电缆、光纤与无线传输介质__CN-KP-M7QHMIB5.md"
+    },
+    "CN-KP-QX2JQ3UE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "物理层接口的特性",
+      "original_order": 199,
+      "current_path": "knowledge/计算机网络/物理层/物理层接口的特性__CN-KP-QX2JQ3UE.md"
+    },
+    "CN-KP-RZLLFELG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "中继器",
+      "original_order": 200,
+      "current_path": "knowledge/计算机网络/物理层/中继器__CN-KP-RZLLFELG.md"
+    },
+    "CN-KP-NMN65H25": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "物理层",
+      "original_topic": "集线器",
+      "original_order": 201,
+      "current_path": "knowledge/计算机网络/物理层/集线器__CN-KP-NMN65H25.md"
+    },
+    "CN-KP-AOB66U5D": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "数据链路层的功能",
+      "original_order": 202,
+      "current_path": "knowledge/计算机网络/数据链路层/数据链路层的功能__CN-KP-AOB66U5D.md"
+    },
+    "CN-KP-TJAPFZD6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "组帧",
+      "original_order": 203,
+      "current_path": "knowledge/计算机网络/数据链路层/组帧__CN-KP-TJAPFZD6.md"
+    },
+    "CN-KP-DONPYDWF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "检错编码",
+      "original_order": 204,
+      "current_path": "knowledge/计算机网络/数据链路层/检错编码__CN-KP-DONPYDWF.md"
+    },
+    "CN-KP-SIMFLOEV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "纠错编码",
+      "original_order": 205,
+      "current_path": "knowledge/计算机网络/数据链路层/纠错编码__CN-KP-SIMFLOEV.md"
+    },
+    "CN-KP-AOXEIENM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "流量控制、可靠传输与滑动窗口机制",
+      "original_order": 206,
+      "current_path": "knowledge/计算机网络/数据链路层/流量控制、可靠传输与滑动窗口机制__CN-KP-AOXEIENM.md"
+    },
+    "CN-KP-3S5VLXL5": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "停止 - 等待协议",
+      "original_order": 207,
+      "current_path": "knowledge/计算机网络/数据链路层/停止 - 等待协议__CN-KP-3S5VLXL5.md"
+    },
+    "CN-KP-EYAO5GTO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "后退 N 帧协议 (GBN)",
+      "original_order": 208,
+      "current_path": "knowledge/计算机网络/数据链路层/后退 N 帧协议 (GBN)__CN-KP-EYAO5GTO.md"
+    },
+    "CN-KP-DJTTDOZ2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "选择重传协议 (SR)",
+      "original_order": 209,
+      "current_path": "knowledge/计算机网络/数据链路层/选择重传协议 (SR)__CN-KP-DJTTDOZ2.md"
+    },
+    "CN-KP-RWAS2CIT": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "信道划分",
+      "original_order": 210,
+      "current_path": "knowledge/计算机网络/数据链路层/信道划分__CN-KP-RWAS2CIT.md"
+    },
+    "CN-KP-N4VT37F4": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "随机访问",
+      "original_order": 211,
+      "current_path": "knowledge/计算机网络/数据链路层/随机访问__CN-KP-N4VT37F4.md"
+    },
+    "CN-KP-HWNPYR73": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "轮询访问",
+      "original_order": 212,
+      "current_path": "knowledge/计算机网络/数据链路层/轮询访问__CN-KP-HWNPYR73.md"
+    },
+    "CN-KP-3UEZIHHG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "局域网的基本概念与体系结构",
+      "original_order": 213,
+      "current_path": "knowledge/计算机网络/数据链路层/局域网的基本概念与体系结构__CN-KP-3UEZIHHG.md"
+    },
+    "CN-KP-GAVWXKJI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "以太网与 IEEE802.3",
+      "original_order": 214,
+      "current_path": "knowledge/计算机网络/数据链路层/以太网与 IEEE802.3__CN-KP-GAVWXKJI.md"
+    },
+    "CN-KP-5LB7I3BY": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "IEEE802.11 无线局域网",
+      "original_order": 215,
+      "current_path": "knowledge/计算机网络/数据链路层/IEEE802.11 无线局域网__CN-KP-5LB7I3BY.md"
+    },
+    "CN-KP-QOAQ3BSS": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "VLAN 基本概念与基本原理",
+      "original_order": 216,
+      "current_path": "knowledge/计算机网络/数据链路层/VLAN 基本概念与基本原理__CN-KP-QOAQ3BSS.md"
+    },
+    "CN-KP-PILG3UNM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "广域网的基本概念",
+      "original_order": 217,
+      "current_path": "knowledge/计算机网络/数据链路层/广域网的基本概念__CN-KP-PILG3UNM.md"
+    },
+    "CN-KP-FLXKT7XW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "PPP 协议",
+      "original_order": 218,
+      "current_path": "knowledge/计算机网络/数据链路层/PPP 协议__CN-KP-FLXKT7XW.md"
+    },
+    "CN-KP-YMAXHD4L": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "数据链路层",
+      "original_topic": "数据链路层设备",
+      "original_order": 219,
+      "current_path": "knowledge/计算机网络/数据链路层/数据链路层设备__CN-KP-YMAXHD4L.md"
+    },
+    "CN-KP-DOJIS53P": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "异构网络互连",
+      "original_order": 220,
+      "current_path": "knowledge/计算机网络/网络层/异构网络互连__CN-KP-DOJIS53P.md"
+    },
+    "CN-KP-7IGPOX7L": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "路由与转发",
+      "original_order": 221,
+      "current_path": "knowledge/计算机网络/网络层/路由与转发__CN-KP-7IGPOX7L.md"
+    },
+    "CN-KP-LCQGLLLL": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "SDN 基本概念",
+      "original_order": 222,
+      "current_path": "knowledge/计算机网络/网络层/SDN 基本概念__CN-KP-LCQGLLLL.md"
+    },
+    "CN-KP-KJF7MF3V": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "拥塞控制",
+      "original_order": 223,
+      "current_path": "knowledge/计算机网络/网络层/拥塞控制__CN-KP-KJF7MF3V.md"
+    },
+    "CN-KP-3BPPPMJF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "静态路由与动态路由",
+      "original_order": 224,
+      "current_path": "knowledge/计算机网络/网络层/静态路由与动态路由__CN-KP-3BPPPMJF.md"
+    },
+    "CN-KP-A4UKO5XE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "距离 - 向量路由算法",
+      "original_order": 225,
+      "current_path": "knowledge/计算机网络/网络层/距离 - 向量路由算法__CN-KP-A4UKO5XE.md"
+    },
+    "CN-KP-K4O2KLDU": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "链路状态路由算法",
+      "original_order": 226,
+      "current_path": "knowledge/计算机网络/网络层/链路状态路由算法__CN-KP-K4O2KLDU.md"
+    },
+    "CN-KP-KGKREOB3": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "层次路由",
+      "original_order": 227,
+      "current_path": "knowledge/计算机网络/网络层/层次路由__CN-KP-KGKREOB3.md"
+    },
+    "CN-KP-DX6SGVRP": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "IPv4 分组",
+      "original_order": 228,
+      "current_path": "knowledge/计算机网络/网络层/IPv4 分组__CN-KP-DX6SGVRP.md"
+    },
+    "CN-KP-TZZMPVUO": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "IPv4 地址与 NAT",
+      "original_order": 229,
+      "current_path": "knowledge/计算机网络/网络层/IPv4 地址与 NAT__CN-KP-TZZMPVUO.md"
+    },
+    "CN-KP-QP22CIOV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "子网划分、路由聚集、 子网掩码与 CIDR",
+      "original_order": 230,
+      "current_path": "knowledge/计算机网络/网络层/子网划分、路由聚集、 子网掩码与 CIDR__CN-KP-QP22CIOV.md"
+    },
+    "CN-KP-UMP7STBJ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "ARP 协议、 DHCP 协议与 ICMP 协议",
+      "original_order": 231,
+      "current_path": "knowledge/计算机网络/网络层/ARP 协议、 DHCP 协议与 ICMP 协议__CN-KP-UMP7STBJ.md"
+    },
+    "CN-KP-AY7VTJPE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "IPv6 的主要特点",
+      "original_order": 232,
+      "current_path": "knowledge/计算机网络/网络层/IPv6 的主要特点__CN-KP-AY7VTJPE.md"
+    },
+    "CN-KP-624N3NPE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "IPv6 地址",
+      "original_order": 233,
+      "current_path": "knowledge/计算机网络/网络层/IPv6 地址__CN-KP-624N3NPE.md"
+    },
+    "CN-KP-F3PZK267": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "自治系统",
+      "original_order": 234,
+      "current_path": "knowledge/计算机网络/网络层/自治系统__CN-KP-F3PZK267.md"
+    },
+    "CN-KP-QCGOMGKZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "域内路由与域间路由",
+      "original_order": 235,
+      "current_path": "knowledge/计算机网络/网络层/域内路由与域间路由__CN-KP-QCGOMGKZ.md"
+    },
+    "CN-KP-LV4RTVT7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "RIP 路由协议",
+      "original_order": 236,
+      "current_path": "knowledge/计算机网络/网络层/RIP 路由协议__CN-KP-LV4RTVT7.md"
+    },
+    "CN-KP-BNKZB7YR": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "OSPF 路由协议",
+      "original_order": 237,
+      "current_path": "knowledge/计算机网络/网络层/OSPF 路由协议__CN-KP-BNKZB7YR.md"
+    },
+    "CN-KP-MPRKCEOK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "BGP 路由协议",
+      "original_order": 238,
+      "current_path": "knowledge/计算机网络/网络层/BGP 路由协议__CN-KP-MPRKCEOK.md"
+    },
+    "CN-KP-OAFIHBMI": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "组播的概念",
+      "original_order": 239,
+      "current_path": "knowledge/计算机网络/网络层/组播的概念__CN-KP-OAFIHBMI.md"
+    },
+    "CN-KP-JV5TOGPK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "IP 组播地址",
+      "original_order": 240,
+      "current_path": "knowledge/计算机网络/网络层/IP 组播地址__CN-KP-JV5TOGPK.md"
+    },
+    "CN-KP-SIDSJZLZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "移动 IP 的概念",
+      "original_order": 241,
+      "current_path": "knowledge/计算机网络/网络层/移动 IP 的概念__CN-KP-SIDSJZLZ.md"
+    },
+    "CN-KP-I3RUODUN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "移动 IP 通信过程",
+      "original_order": 242,
+      "current_path": "knowledge/计算机网络/网络层/移动 IP 通信过程__CN-KP-I3RUODUN.md"
+    },
+    "CN-KP-URUX32RM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "路由器的组成和功能",
+      "original_order": 243,
+      "current_path": "knowledge/计算机网络/网络层/路由器的组成和功能__CN-KP-URUX32RM.md"
+    },
+    "CN-KP-QBAXO6HW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "网络层",
+      "original_topic": "路由表与路由转发",
+      "original_order": 244,
+      "current_path": "knowledge/计算机网络/网络层/路由表与路由转发__CN-KP-QBAXO6HW.md"
+    },
+    "CN-KP-3YBQX2Q6": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "传输层的功能",
+      "original_order": 245,
+      "current_path": "knowledge/计算机网络/传输层/传输层的功能__CN-KP-3YBQX2Q6.md"
+    },
+    "CN-KP-UCPXJZMZ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "传输层寻址与端口",
+      "original_order": 246,
+      "current_path": "knowledge/计算机网络/传输层/传输层寻址与端口__CN-KP-UCPXJZMZ.md"
+    },
+    "CN-KP-PEOPAZVY": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "无连接服务与面向连接服务",
+      "original_order": 247,
+      "current_path": "knowledge/计算机网络/传输层/无连接服务与面向连接服务__CN-KP-PEOPAZVY.md"
+    },
+    "CN-KP-HAEPNN3L": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "UDP 数据报",
+      "original_order": 248,
+      "current_path": "knowledge/计算机网络/传输层/UDP 数据报__CN-KP-HAEPNN3L.md"
+    },
+    "CN-KP-IYQY5CNE": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "UDP 校验",
+      "original_order": 249,
+      "current_path": "knowledge/计算机网络/传输层/UDP 校验__CN-KP-IYQY5CNE.md"
+    },
+    "CN-KP-QZKDFRJW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "TCP 段",
+      "original_order": 250,
+      "current_path": "knowledge/计算机网络/传输层/TCP 段__CN-KP-QZKDFRJW.md"
+    },
+    "CN-KP-RNWEHG4K": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "TCP 连接管理",
+      "original_order": 251,
+      "current_path": "knowledge/计算机网络/传输层/TCP 连接管理__CN-KP-RNWEHG4K.md"
+    },
+    "CN-KP-RSDS5ZJM": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "TCP 可靠传输",
+      "original_order": 252,
+      "current_path": "knowledge/计算机网络/传输层/TCP 可靠传输__CN-KP-RSDS5ZJM.md"
+    },
+    "CN-KP-DPLEAY7I": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "TCP 流量控制",
+      "original_order": 253,
+      "current_path": "knowledge/计算机网络/传输层/TCP 流量控制__CN-KP-DPLEAY7I.md"
+    },
+    "CN-KP-UUGYBPDX": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "传输层",
+      "original_topic": "TCP 拥塞控制",
+      "original_order": 254,
+      "current_path": "knowledge/计算机网络/传输层/TCP 拥塞控制__CN-KP-UUGYBPDX.md"
+    },
+    "CN-KP-LGFLPMLQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "客户 / 服务器 (C/S) 模型",
+      "original_order": 255,
+      "current_path": "knowledge/计算机网络/应用层/客户 - 服务器 (C-S) 模型__CN-KP-LGFLPMLQ.md"
+    },
+    "CN-KP-ERLTR5TK": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "对等 (P2P) 模型",
+      "original_order": 256,
+      "current_path": "knowledge/计算机网络/应用层/对等 (P2P) 模型__CN-KP-ERLTR5TK.md"
+    },
+    "CN-KP-B5N5ETUG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "层次域名空间",
+      "original_order": 257,
+      "current_path": "knowledge/计算机网络/应用层/层次域名空间__CN-KP-B5N5ETUG.md"
+    },
+    "CN-KP-W4ZLMMCG": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "域名服务器",
+      "original_order": 258,
+      "current_path": "knowledge/计算机网络/应用层/域名服务器__CN-KP-W4ZLMMCG.md"
+    },
+    "CN-KP-ZEOMOQRF": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "域名解析过程",
+      "original_order": 259,
+      "current_path": "knowledge/计算机网络/应用层/域名解析过程__CN-KP-ZEOMOQRF.md"
+    },
+    "CN-KP-IMWXXDMN": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "FTP 协议的工作原理",
+      "original_order": 260,
+      "current_path": "knowledge/计算机网络/应用层/FTP 协议的工作原理__CN-KP-IMWXXDMN.md"
+    },
+    "CN-KP-CS2D5FE7": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "控制连接与数据连接",
+      "original_order": 261,
+      "current_path": "knowledge/计算机网络/应用层/控制连接与数据连接__CN-KP-CS2D5FE7.md"
+    },
+    "CN-KP-LRBM7OAV": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "电子邮件系统的组成结构",
+      "original_order": 262,
+      "current_path": "knowledge/计算机网络/应用层/电子邮件系统的组成结构__CN-KP-LRBM7OAV.md"
+    },
+    "CN-KP-VXXIHNIQ": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "电子邮件格式与 MIME",
+      "original_order": 263,
+      "current_path": "knowledge/计算机网络/应用层/电子邮件格式与 MIME__CN-KP-VXXIHNIQ.md"
+    },
+    "CN-KP-CKDQ4WE2": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "SMTP 协议与 POP3 协议",
+      "original_order": 264,
+      "current_path": "knowledge/计算机网络/应用层/SMTP 协议与 POP3 协议__CN-KP-CKDQ4WE2.md"
+    },
+    "CN-KP-BZMT3U6D": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "WWW 的概念与组成结构",
+      "original_order": 265,
+      "current_path": "knowledge/计算机网络/应用层/WWW 的概念与组成结构__CN-KP-BZMT3U6D.md"
+    },
+    "CN-KP-KEX4FEWW": {
+      "status": "active",
+      "first_assigned_version": "2026",
+      "original_subject": "计算机网络",
+      "original_chapter": "应用层",
+      "original_topic": "HTTP 协议",
+      "original_order": 266,
+      "current_path": "knowledge/计算机网络/应用层/HTTP 协议__CN-KP-KEX4FEWW.md"
+    }
+  }
+}
