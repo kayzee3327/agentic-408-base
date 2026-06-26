@@ -10,6 +10,9 @@ Thumbs.db
 .codex/
 .agents/
 
+# Generated OCR smoke-test outputs
+agent/state/ocr-test/
+
 # Large source PDFs are kept locally; track extracted text and structured notes instead.
 参考书/**/*.pdf
 大纲/**/*.pdf
