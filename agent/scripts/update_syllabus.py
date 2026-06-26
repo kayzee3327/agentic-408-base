@@ -49,7 +49,7 @@ def main():
     added = [x for x in new_lines if x not in old_set]
     removed = [x for x in old_lines if x not in new_set]
 
-    report = ROOT / "syllabus_versions" / args.new_version / "change_candidates.md"
+    report = ROOT / "大纲版本" / args.new_version / "change_candidates.md"
     report.parent.mkdir(parents=True, exist_ok=True)
     subject = ""
     out = [
@@ -77,8 +77,8 @@ def main():
         "人工确认并修改知识点页面后运行：",
         "",
         "```bash",
-        "python scripts/build_indexes.py",
-        "python scripts/check_structure.py",
+        "python agent/scripts/build_indexes.py",
+        "python agent/scripts/check_structure.py",
         "```",
     ]
     report.write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")

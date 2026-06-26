@@ -6,24 +6,25 @@
 
 ## 目录
 
-- `knowledge/`：正式知识点页面。
-- `templates/`：知识点、题目、错题模板。模板不是正式内容。
-- `questions/`：完整题目记录，使用题目模板。
-- `mistakes/` 或 `错题/`：错题和弱点复盘，使用错题模板。
-- `feedback/`：非完整题目的反馈事件、个人思考、待验证观察，使用反馈事件模板。
-- `practice_sessions/`：刷题统计和阶段性练习记录，使用练习记录模板。
-- `workflows/`：AI agent 可读取并执行的资料库维护工作流。
-- `syllabus_versions/`：每一版大纲原文或规范化副本。
-- `indexes/`：脚本自动生成的索引。
-- `scripts/`：索引、检查和未来大纲更新辅助脚本。
-- `data/id_registry.json`：已经分配过的知识点ID登记表。
+- `知识点/`：正式知识点页面。
+- `题目/`：完整题目记录，使用题目模板。
+- `错题/`：错题和弱点复盘，使用错题模板。
+- `反馈/`：非完整题目的反馈事件、个人思考、待验证观察，使用反馈事件模板。
+- `练习记录/`：刷题统计和阶段性练习记录，使用练习记录模板。
+- `大纲版本/`：每一版大纲原文或规范化副本。
+- `索引/`：脚本自动生成的索引。
+- `agent/`：AI agent 与维护脚本使用的流程、模板、脚本和状态文件。
+- `agent/workflows/`：AI agent 可读取并执行的资料库维护工作流。
+- `agent/templates/`：知识点、题目、错题和维护模板。模板不是正式内容。
+- `agent/scripts/`：索引、检查和未来大纲更新辅助脚本。
+- `agent/state/id_registry.json`：已经分配过的知识点ID登记表。
 
 ## 工作流
 
 AI agent 处理非简单任务时，应先阅读：
 
 - `AGENTS.md`
-- `workflows/README.md`
+- `agent/workflows/README.md`
 - 与当前任务触发条件匹配的 active 工作流
 
 当任务暴露出可复用流程、现有流程过时或用户要求长期遵循某流程时，可以按 `WF-001 工作流维护` 增量更新工作流。
@@ -32,7 +33,7 @@ AI agent 处理非简单任务时，应先阅读：
 
 做题反馈、错题复盘、刷题统计和个人思考应先按输入类型归档，再判断是否增量更新正式知识点。完整流程见：
 
-- `workflows/WF-002-做题反馈入库.md`
+- `agent/workflows/WF-002-做题反馈入库.md`
 
 通过对话更新此类内容时，应先输出变更报告，说明输入类型、来源、关联知识点ID、拟新增或修改的文件，以及是否会修改正式知识点。缺少教材、真题或可靠来源支撑的内容，只能记录为个人反馈或待验证项，不得写成核心知识事实。
 
@@ -41,14 +42,14 @@ AI agent 处理非简单任务时，应先阅读：
 修改任一知识点页面的YAML元数据、移动知识点页面、新增或废弃知识点后，运行：
 
 ```bash
-python scripts/build_indexes.py
+python agent/scripts/build_indexes.py
 ```
 
-脚本读取 `knowledge/` 中的正式知识点页面，覆盖生成：
+脚本读取 `知识点/` 中的正式知识点页面，覆盖生成：
 
-- `indexes/知识点总索引.md`
-- `indexes/前置依赖索引.md`
-- `indexes/未完成项索引.md`
+- `索引/知识点总索引.md`
+- `索引/前置依赖索引.md`
+- `索引/未完成项索引.md`
 
 如果脚本报错，优先查看错误里给出的文件路径、知识点ID和字段名，再修改对应知识点页面的YAML元数据。
 
@@ -57,17 +58,17 @@ python scripts/build_indexes.py
 每次修改知识点、题目、错题或大纲版本后，运行：
 
 ```bash
-python scripts/check_structure.py
+python agent/scripts/check_structure.py
 ```
 
 该脚本检查大纲覆盖、ID唯一性、历史ID复用、字段合法性、引用有效性、模板误识别以及索引是否与源文件一致。
 
 ## 未来更新大纲
 
-先把新版大纲文本保存到 `syllabus_versions/<新版本>/raw.md`，然后运行：
+先把新版大纲文本保存到 `大纲版本/<新版本>/raw.md`，然后运行：
 
 ```bash
-python scripts/update_syllabus.py syllabus_versions/2026/raw.md syllabus_versions/<新版本>/raw.md --new-version <新版本>
+python agent/scripts/update_syllabus.py 大纲版本/2026/raw.md 大纲版本/<新版本>/raw.md --new-version <新版本>
 ```
 
 该命令会先输出候选变化报告；无法确定的新增、删除、改名、移动、拆分和合并需要人工确认后再修改知识库。

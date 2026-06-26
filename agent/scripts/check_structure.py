@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 
 from kb_utils import (
+    AGENT,
     INDEXES,
     KNOWLEDGE,
     REQUIRED_TOPIC_FIELDS,
@@ -40,7 +41,7 @@ def add(errors, message):
 
 
 def scan_question_files():
-    roots = [ROOT / "questions", ROOT / "错题", ROOT / "mistakes"]
+    roots = [ROOT / "题目", ROOT / "错题"]
     files = []
     for root in roots:
         if root.exists():
@@ -49,14 +50,14 @@ def scan_question_files():
 
 
 def scan_workflow_files():
-    root = ROOT / "workflows"
+    root = AGENT / "workflows"
     if not root.exists():
         return []
     return sorted((p for p in root.glob("*.md") if p.name.lower() != "readme.md"), key=lambda p: rel(p))
 
 
 def check_templates(errors):
-    for path in (ROOT / "templates").glob("*.md"):
+    for path in (AGENT / "templates").rglob("*.md"):
         if path in topic_files():
             add(errors, f"模板被识别为知识点: {rel(path)}")
 
@@ -141,7 +142,7 @@ def check_index_fresh(errors):
     before = {p: file_hash(p) if p.exists() else "" for p in expected}
     env = dict(os.environ)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    subprocess.run([sys.executable, str(ROOT / "scripts" / "build_indexes.py")], cwd=ROOT, check=True, capture_output=True, text=True, env=env)
+    subprocess.run([sys.executable, str(AGENT / "scripts" / "build_indexes.py")], cwd=ROOT, check=True, capture_output=True, text=True, env=env)
     after = {p: file_hash(p) if p.exists() else "" for p in expected}
     for path in expected:
         if before[path] != after[path]:
@@ -152,9 +153,9 @@ def check_syllabus_coverage(errors, topics):
     current = [t for t in topics if t["meta"].get("scope_status") == "current"]
     if not current:
         add(errors, "当前大纲覆盖率为0：没有current知识点")
-    syllabus_raw = ROOT / "syllabus_versions" / "2026" / "raw.md"
+    syllabus_raw = ROOT / "大纲版本" / "2026" / "raw.md"
     if not syllabus_raw.exists():
-        add(errors, "缺少当前大纲规范化副本: syllabus_versions/2026/raw.md")
+        add(errors, "缺少当前大纲规范化副本: 大纲版本/2026/raw.md")
 
 
 def main():

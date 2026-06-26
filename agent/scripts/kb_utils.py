@@ -7,10 +7,11 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-KNOWLEDGE = ROOT / "knowledge"
-TEMPLATES = ROOT / "templates"
-INDEXES = ROOT / "indexes"
+ROOT = Path(__file__).resolve().parents[2]
+AGENT = ROOT / "agent"
+KNOWLEDGE = ROOT / "知识点"
+TEMPLATES = AGENT / "templates"
+INDEXES = ROOT / "索引"
 AUTO_NOTICE = "此文件由脚本自动生成，请勿手工编辑。需要修改时，请修改源知识点页面的YAML元数据，然后重新运行索引生成脚本。"
 
 REQUIRED_TOPIC_FIELDS = [
@@ -183,7 +184,7 @@ def write_if_changed(path: Path, text: str):
 
 
 def registry():
-    path = ROOT / "data" / "id_registry.json"
+    path = AGENT / "state" / "id_registry.json"
     if not path.exists():
         return {"assigned_ids": {}}
     return json.loads(path.read_text(encoding="utf-8"))

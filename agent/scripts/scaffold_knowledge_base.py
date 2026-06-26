@@ -8,7 +8,8 @@ import shutil
 from datetime import date
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
+AGENT = ROOT / "agent"
 SOURCE = ROOT / "大纲" / "2026考研考试大纲408计算机_AI易读版文本.txt"
 VERSION = "2026考研考试大纲408计算机"
 VERSION_ID = "2026"
@@ -292,9 +293,9 @@ last_review_date: ""
 
 ## 复习记录
 """
-    write(ROOT / "templates" / "知识点模板.md", kp)
-    write(ROOT / "templates" / "题目模板.md", q)
-    write(ROOT / "templates" / "错题模板.md", e)
+    write(AGENT / "templates" / "knowledge" / "知识点模板.md", kp)
+    write(AGENT / "templates" / "intake" / "题目模板.md", q)
+    write(AGENT / "templates" / "intake" / "错题模板.md", e)
 
 
 def docs_and_scripts():
@@ -306,26 +307,26 @@ def docs_and_scripts():
 
 ## 目录
 
-- `knowledge/`：正式知识点页面。
-- `templates/`：知识点、题目、错题模板。模板不是正式内容。
-- `syllabus_versions/`：每一版大纲原文或规范化副本。
-- `indexes/`：脚本自动生成的索引。
-- `scripts/`：索引、检查和未来大纲更新辅助脚本。
-- `data/id_registry.json`：已经分配过的知识点ID登记表。
+- `知识点/`：正式知识点页面。
+- `大纲版本/`：每一版大纲原文或规范化副本。
+- `索引/`：脚本自动生成的索引。
+- `agent/templates/`：知识点、题目、错题模板。模板不是正式内容。
+- `agent/scripts/`：索引、检查和未来大纲更新辅助脚本。
+- `agent/state/id_registry.json`：已经分配过的知识点ID登记表。
 
 ## 什么时候运行索引生成脚本
 
 修改任一知识点页面的YAML元数据、移动知识点页面、新增或废弃知识点后，运行：
 
 ```bash
-python scripts/build_indexes.py
+python agent/scripts/build_indexes.py
 ```
 
-脚本读取 `knowledge/` 中的正式知识点页面，覆盖生成：
+脚本读取 `知识点/` 中的正式知识点页面，覆盖生成：
 
-- `indexes/知识点总索引.md`
-- `indexes/前置依赖索引.md`
-- `indexes/未完成项索引.md`
+- `索引/知识点总索引.md`
+- `索引/前置依赖索引.md`
+- `索引/未完成项索引.md`
 
 如果脚本报错，优先查看错误里给出的文件路径、知识点ID和字段名，再修改对应知识点页面的YAML元数据。
 
@@ -334,17 +335,17 @@ python scripts/build_indexes.py
 每次修改知识点、题目、错题或大纲版本后，运行：
 
 ```bash
-python scripts/check_structure.py
+python agent/scripts/check_structure.py
 ```
 
 该脚本检查大纲覆盖、ID唯一性、历史ID复用、字段合法性、引用有效性、模板误识别以及索引是否与源文件一致。
 
 ## 未来更新大纲
 
-先把新版大纲文本保存到 `syllabus_versions/<新版本>/raw.md`，然后运行：
+先把新版大纲文本保存到 `大纲版本/<新版本>/raw.md`，然后运行：
 
 ```bash
-python scripts/update_syllabus.py syllabus_versions/{VERSION_ID}/raw.md syllabus_versions/<新版本>/raw.md --new-version <新版本>
+python agent/scripts/update_syllabus.py 大纲版本/{VERSION_ID}/raw.md 大纲版本/<新版本>/raw.md --new-version <新版本>
 ```
 
 该命令会先输出候选变化报告；无法确定的新增、删除、改名、移动、拆分和合并需要人工确认后再修改知识库。
@@ -359,6 +360,7 @@ python scripts/update_syllabus.py syllabus_versions/{VERSION_ID}/raw.md syllabus
 - 大纲更新必须采用增量更新，不得覆盖或重新生成整个知识库。
 - 新增、修改、删除大纲条目前，应先输出变更报告，再修改知识库。
 - 模板规定页面结构，但模板文件不得被视为正式知识点、题目或错题。
+- AI agent 处理非简单任务时，必须先阅读 `agent/workflows/README.md`，并按触发条件阅读相关 active 工作流。
 - 索引是自动生成文件，不得手工维护。
 - 修改知识点元数据后必须重新运行索引生成和结构检查脚本。
 - 旧大纲中存在、当前大纲中不再出现的知识点不直接删除，应标记为 `deprecated` 或 `out_of_scope`，并保留原ID和已有引用。
@@ -383,14 +385,14 @@ def main():
     if not topics:
         raise SystemExit("未能从大纲文本解析出知识点。")
 
-    for old in ["knowledge", "templates", "indexes", "syllabus_versions", "data"]:
+    for old in ["知识点", "索引", "大纲版本"]:
         p = ROOT / old
         if p.exists():
             shutil.rmtree(p)
 
-    write(ROOT / "syllabus_versions" / VERSION_ID / "raw.md", text)
+    write(ROOT / "大纲版本" / VERSION_ID / "raw.md", text)
     write(
-        ROOT / "syllabus_versions" / "versions.json",
+        ROOT / "大纲版本" / "versions.json",
         json.dumps(
             [
                 {
@@ -398,7 +400,7 @@ def main():
                     "title": VERSION,
                     "date_recorded": str(date.today()),
                     "source": str(SOURCE.relative_to(ROOT)).replace("\\", "/"),
-                    "normalized_copy": f"syllabus_versions/{VERSION_ID}/raw.md",
+                    "normalized_copy": f"大纲版本/{VERSION_ID}/raw.md",
                 }
             ],
             ensure_ascii=False,
@@ -413,7 +415,7 @@ def main():
         item["id"] = kid
         path = (
             ROOT
-            / "knowledge"
+            / "知识点"
             / item["subject"]
             / safe_name(item["chapter"])
             / f"{safe_name(item['topic'])}__{kid}.md"
@@ -428,7 +430,7 @@ def main():
             "original_order": order,
             "current_path": str(path.relative_to(ROOT)).replace("\\", "/"),
         }
-    write(ROOT / "data" / "id_registry.json", json.dumps(registry, ensure_ascii=False, indent=2) + "\n")
+    write(AGENT / "state" / "id_registry.json", json.dumps(registry, ensure_ascii=False, indent=2) + "\n")
     templates()
     docs_and_scripts()
     print(f"created_topics={len(topics)}")
